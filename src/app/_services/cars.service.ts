@@ -2,8 +2,11 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
+// SERVIDOR
+const API_URL = 'https://intense-ridge-30544.herokuapp.com/api/';
+
+// LOCAL
 // const API_URL = 'http://localhost:8080/api/';
-const API_URL = 'https://alansastre-springboot-jwt.herokuapp.com/api/';
 
 @Injectable({
   providedIn: 'root'
